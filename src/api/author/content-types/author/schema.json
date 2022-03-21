@@ -34,7 +34,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::course.course",
-      "inversedBy": "authors"
+      "mappedBy": "authors"
     }
   }
 }
