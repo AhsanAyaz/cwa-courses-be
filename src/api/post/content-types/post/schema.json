@@ -49,6 +49,9 @@
     },
     "order": {
       "type": "string"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
