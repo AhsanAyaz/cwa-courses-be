@@ -98,6 +98,16 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::chapter.chapter"
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "unique": true,
+      "required": true
     }
   }
 }

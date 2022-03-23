@@ -1983,6 +1983,9 @@
                                                                                           }
                                                                                         }
                                                                                       },
+                                                                                      "order": {
+                                                                                        "type": "string"
+                                                                                      },
                                                                                       "createdAt": {
                                                                                         "type": "string",
                                                                                         "format": "date-time"
@@ -2088,6 +2091,9 @@
                                                                 }
                                                               }
                                                             }
+                                                          },
+                                                          "slug": {
+                                                            "type": "string"
                                                           },
                                                           "createdAt": {
                                                             "type": "string",
@@ -2977,6 +2983,9 @@
                                     }
                                   }
                                 }
+                              },
+                              "slug": {
+                                "type": "string"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -5293,6 +5302,9 @@
                                                                                         }
                                                                                       }
                                                                                     },
+                                                                                    "order": {
+                                                                                      "type": "string"
+                                                                                    },
                                                                                     "createdAt": {
                                                                                       "type": "string",
                                                                                       "format": "date-time"
@@ -5398,6 +5410,9 @@
                                                               }
                                                             }
                                                           }
+                                                        },
+                                                        "slug": {
+                                                          "type": "string"
                                                         },
                                                         "createdAt": {
                                                           "type": "string",
@@ -6288,6 +6303,9 @@
                                 }
                               }
                             },
+                            "slug": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -6529,118 +6547,7 @@
                   "data": {
                     "type": "object",
                     "properties": {
-                      "name": {
-                        "type": "string"
-                      },
-                      "description": {
-                        "type": "string"
-                      },
-                      "outline": {
-                        "type": "string"
-                      },
-                      "videoUrls": {},
-                      "duration": {
-                        "type": "string"
-                      },
-                      "authors": {
-                        "type": "array",
-                        "items": {
-                          "oneOf": [
-                            {
-                              "type": "integer"
-                            },
-                            {
-                              "type": "string"
-                            }
-                          ],
-                          "example": "string or id"
-                        }
-                      },
-                      "banner": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "introVideo": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "chapters": {
-                        "type": "array",
-                        "items": {
-                          "oneOf": [
-                            {
-                              "type": "integer"
-                            },
-                            {
-                              "type": "string"
-                            }
-                          ],
-                          "example": "string or id"
-                        }
-                      },
-                      "createdAt": {
-                        "type": "string",
-                        "format": "date-time"
-                      },
-                      "updatedAt": {
-                        "type": "string",
-                        "format": "date-time"
-                      },
-                      "publishedAt": {
-                        "type": "string",
-                        "format": "date-time"
-                      },
-                      "createdBy": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "updatedBy": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "localizations": {
-                        "type": "array",
-                        "items": {
-                          "oneOf": [
-                            {
-                              "type": "integer"
-                            },
-                            {
-                              "type": "string"
-                            }
-                          ],
-                          "example": "string or id"
-                        }
-                      },
-                      "locale": {
+                      "slug": {
                         "type": "string"
                       }
                     }
@@ -8633,6 +8540,9 @@
                                                                                         }
                                                                                       }
                                                                                     },
+                                                                                    "order": {
+                                                                                      "type": "string"
+                                                                                    },
                                                                                     "createdAt": {
                                                                                       "type": "string",
                                                                                       "format": "date-time"
@@ -8738,6 +8648,9 @@
                                                               }
                                                             }
                                                           }
+                                                        },
+                                                        "slug": {
+                                                          "type": "string"
                                                         },
                                                         "createdAt": {
                                                           "type": "string",
@@ -9627,6 +9540,9 @@
                                   }
                                 }
                               }
+                            },
+                            "slug": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -11852,6 +11768,9 @@
                                                                                         }
                                                                                       }
                                                                                     },
+                                                                                    "order": {
+                                                                                      "type": "string"
+                                                                                    },
                                                                                     "createdAt": {
                                                                                       "type": "string",
                                                                                       "format": "date-time"
@@ -11957,6 +11876,9 @@
                                                               }
                                                             }
                                                           }
+                                                        },
+                                                        "slug": {
+                                                          "type": "string"
                                                         },
                                                         "createdAt": {
                                                           "type": "string",
@@ -12847,6 +12769,9 @@
                                 }
                               }
                             },
+                            "slug": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -13161,6 +13086,9 @@
                           ],
                           "example": "string or id"
                         }
+                      },
+                      "slug": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",
@@ -15379,6 +15307,9 @@
                                                                                         }
                                                                                       }
                                                                                     },
+                                                                                    "order": {
+                                                                                      "type": "string"
+                                                                                    },
                                                                                     "createdAt": {
                                                                                       "type": "string",
                                                                                       "format": "date-time"
@@ -15484,6 +15415,9 @@
                                                               }
                                                             }
                                                           }
+                                                        },
+                                                        "slug": {
+                                                          "type": "string"
                                                         },
                                                         "createdAt": {
                                                           "type": "string",
@@ -16374,6 +16308,9 @@
                                 }
                               }
                             },
+                            "slug": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -16626,118 +16563,7 @@
                   "data": {
                     "type": "object",
                     "properties": {
-                      "name": {
-                        "type": "string"
-                      },
-                      "description": {
-                        "type": "string"
-                      },
-                      "outline": {
-                        "type": "string"
-                      },
-                      "videoUrls": {},
-                      "duration": {
-                        "type": "string"
-                      },
-                      "authors": {
-                        "type": "array",
-                        "items": {
-                          "oneOf": [
-                            {
-                              "type": "integer"
-                            },
-                            {
-                              "type": "string"
-                            }
-                          ],
-                          "example": "string or id"
-                        }
-                      },
-                      "banner": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "introVideo": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "chapters": {
-                        "type": "array",
-                        "items": {
-                          "oneOf": [
-                            {
-                              "type": "integer"
-                            },
-                            {
-                              "type": "string"
-                            }
-                          ],
-                          "example": "string or id"
-                        }
-                      },
-                      "createdAt": {
-                        "type": "string",
-                        "format": "date-time"
-                      },
-                      "updatedAt": {
-                        "type": "string",
-                        "format": "date-time"
-                      },
-                      "publishedAt": {
-                        "type": "string",
-                        "format": "date-time"
-                      },
-                      "createdBy": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "updatedBy": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "localizations": {
-                        "type": "array",
-                        "items": {
-                          "oneOf": [
-                            {
-                              "type": "integer"
-                            },
-                            {
-                              "type": "string"
-                            }
-                          ],
-                          "example": "string or id"
-                        }
-                      },
-                      "locale": {
+                      "slug": {
                         "type": "string"
                       }
                     }

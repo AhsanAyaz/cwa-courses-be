@@ -46,6 +46,9 @@
       "relation": "manyToOne",
       "target": "api::chapter.chapter",
       "inversedBy": "posts"
+    },
+    "order": {
+      "type": "string"
     }
   }
 }

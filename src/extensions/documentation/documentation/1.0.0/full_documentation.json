@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-03-21T23:14:36.674Z"
+    "x-generation-date": "2022-03-23T00:25:15.923Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2450,6 +2450,9 @@
                                                                             }
                                                                           }
                                                                         },
+                                                                        "order": {
+                                                                          "type": "string"
+                                                                        },
                                                                         "createdAt": {
                                                                           "type": "string",
                                                                           "format": "date-time"
@@ -2555,6 +2558,9 @@
                                                   }
                                                 }
                                               }
+                                            },
+                                            "slug": {
+                                              "type": "string"
                                             },
                                             "createdAt": {
                                               "type": "string",
@@ -5341,6 +5347,9 @@
                                                                           }
                                                                         }
                                                                       },
+                                                                      "order": {
+                                                                        "type": "string"
+                                                                      },
                                                                       "createdAt": {
                                                                         "type": "string",
                                                                         "format": "date-time"
@@ -5446,6 +5455,9 @@
                                                 }
                                               }
                                             }
+                                          },
+                                          "slug": {
+                                            "type": "string"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -8214,6 +8226,9 @@
                                                                           }
                                                                         }
                                                                       },
+                                                                      "order": {
+                                                                        "type": "string"
+                                                                      },
                                                                       "createdAt": {
                                                                         "type": "string",
                                                                         "format": "date-time"
@@ -8319,6 +8334,9 @@
                                                 }
                                               }
                                             }
+                                          },
+                                          "slug": {
+                                            "type": "string"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -11014,6 +11032,9 @@
                                                                           }
                                                                         }
                                                                       },
+                                                                      "order": {
+                                                                        "type": "string"
+                                                                      },
                                                                       "createdAt": {
                                                                         "type": "string",
                                                                         "format": "date-time"
@@ -11119,6 +11140,9 @@
                                                 }
                                               }
                                             }
+                                          },
+                                          "slug": {
+                                            "type": "string"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -12527,6 +12551,9 @@
                                                 }
                                               }
                                             },
+                                            "order": {
+                                              "type": "string"
+                                            },
                                             "createdAt": {
                                               "type": "string",
                                               "format": "date-time"
@@ -13740,6 +13767,9 @@
                                               }
                                             }
                                           },
+                                          "order": {
+                                            "type": "string"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -14923,6 +14953,9 @@
                                               }
                                             }
                                           },
+                                          "order": {
+                                            "type": "string"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -16044,6 +16077,9 @@
                                                 }
                                               }
                                             }
+                                          },
+                                          "order": {
+                                            "type": "string"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -18549,6 +18585,9 @@
                                                                                           }
                                                                                         }
                                                                                       },
+                                                                                      "order": {
+                                                                                        "type": "string"
+                                                                                      },
                                                                                       "createdAt": {
                                                                                         "type": "string",
                                                                                         "format": "date-time"
@@ -18654,6 +18693,9 @@
                                                                 }
                                                               }
                                                             }
+                                                          },
+                                                          "slug": {
+                                                            "type": "string"
                                                           },
                                                           "createdAt": {
                                                             "type": "string",
@@ -19543,6 +19585,9 @@
                                     }
                                   }
                                 }
+                              },
+                              "slug": {
+                                "type": "string"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -21859,6 +21904,9 @@
                                                                                         }
                                                                                       }
                                                                                     },
+                                                                                    "order": {
+                                                                                      "type": "string"
+                                                                                    },
                                                                                     "createdAt": {
                                                                                       "type": "string",
                                                                                       "format": "date-time"
@@ -21964,6 +22012,9 @@
                                                               }
                                                             }
                                                           }
+                                                        },
+                                                        "slug": {
+                                                          "type": "string"
                                                         },
                                                         "createdAt": {
                                                           "type": "string",
@@ -22854,6 +22905,9 @@
                                 }
                               }
                             },
+                            "slug": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -23095,118 +23149,7 @@
                   "data": {
                     "type": "object",
                     "properties": {
-                      "name": {
-                        "type": "string"
-                      },
-                      "description": {
-                        "type": "string"
-                      },
-                      "outline": {
-                        "type": "string"
-                      },
-                      "videoUrls": {},
-                      "duration": {
-                        "type": "string"
-                      },
-                      "authors": {
-                        "type": "array",
-                        "items": {
-                          "oneOf": [
-                            {
-                              "type": "integer"
-                            },
-                            {
-                              "type": "string"
-                            }
-                          ],
-                          "example": "string or id"
-                        }
-                      },
-                      "banner": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "introVideo": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "chapters": {
-                        "type": "array",
-                        "items": {
-                          "oneOf": [
-                            {
-                              "type": "integer"
-                            },
-                            {
-                              "type": "string"
-                            }
-                          ],
-                          "example": "string or id"
-                        }
-                      },
-                      "createdAt": {
-                        "type": "string",
-                        "format": "date-time"
-                      },
-                      "updatedAt": {
-                        "type": "string",
-                        "format": "date-time"
-                      },
-                      "publishedAt": {
-                        "type": "string",
-                        "format": "date-time"
-                      },
-                      "createdBy": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "updatedBy": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "localizations": {
-                        "type": "array",
-                        "items": {
-                          "oneOf": [
-                            {
-                              "type": "integer"
-                            },
-                            {
-                              "type": "string"
-                            }
-                          ],
-                          "example": "string or id"
-                        }
-                      },
-                      "locale": {
+                      "slug": {
                         "type": "string"
                       }
                     }
@@ -25199,6 +25142,9 @@
                                                                                         }
                                                                                       }
                                                                                     },
+                                                                                    "order": {
+                                                                                      "type": "string"
+                                                                                    },
                                                                                     "createdAt": {
                                                                                       "type": "string",
                                                                                       "format": "date-time"
@@ -25304,6 +25250,9 @@
                                                               }
                                                             }
                                                           }
+                                                        },
+                                                        "slug": {
+                                                          "type": "string"
                                                         },
                                                         "createdAt": {
                                                           "type": "string",
@@ -26193,6 +26142,9 @@
                                   }
                                 }
                               }
+                            },
+                            "slug": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -28418,6 +28370,9 @@
                                                                                         }
                                                                                       }
                                                                                     },
+                                                                                    "order": {
+                                                                                      "type": "string"
+                                                                                    },
                                                                                     "createdAt": {
                                                                                       "type": "string",
                                                                                       "format": "date-time"
@@ -28523,6 +28478,9 @@
                                                               }
                                                             }
                                                           }
+                                                        },
+                                                        "slug": {
+                                                          "type": "string"
                                                         },
                                                         "createdAt": {
                                                           "type": "string",
@@ -29413,6 +29371,9 @@
                                 }
                               }
                             },
+                            "slug": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -29727,6 +29688,9 @@
                           ],
                           "example": "string or id"
                         }
+                      },
+                      "slug": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",
@@ -31945,6 +31909,9 @@
                                                                                         }
                                                                                       }
                                                                                     },
+                                                                                    "order": {
+                                                                                      "type": "string"
+                                                                                    },
                                                                                     "createdAt": {
                                                                                       "type": "string",
                                                                                       "format": "date-time"
@@ -32050,6 +32017,9 @@
                                                               }
                                                             }
                                                           }
+                                                        },
+                                                        "slug": {
+                                                          "type": "string"
                                                         },
                                                         "createdAt": {
                                                           "type": "string",
@@ -32940,6 +32910,9 @@
                                 }
                               }
                             },
+                            "slug": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -33192,118 +33165,7 @@
                   "data": {
                     "type": "object",
                     "properties": {
-                      "name": {
-                        "type": "string"
-                      },
-                      "description": {
-                        "type": "string"
-                      },
-                      "outline": {
-                        "type": "string"
-                      },
-                      "videoUrls": {},
-                      "duration": {
-                        "type": "string"
-                      },
-                      "authors": {
-                        "type": "array",
-                        "items": {
-                          "oneOf": [
-                            {
-                              "type": "integer"
-                            },
-                            {
-                              "type": "string"
-                            }
-                          ],
-                          "example": "string or id"
-                        }
-                      },
-                      "banner": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "introVideo": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "chapters": {
-                        "type": "array",
-                        "items": {
-                          "oneOf": [
-                            {
-                              "type": "integer"
-                            },
-                            {
-                              "type": "string"
-                            }
-                          ],
-                          "example": "string or id"
-                        }
-                      },
-                      "createdAt": {
-                        "type": "string",
-                        "format": "date-time"
-                      },
-                      "updatedAt": {
-                        "type": "string",
-                        "format": "date-time"
-                      },
-                      "publishedAt": {
-                        "type": "string",
-                        "format": "date-time"
-                      },
-                      "createdBy": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "updatedBy": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "localizations": {
-                        "type": "array",
-                        "items": {
-                          "oneOf": [
-                            {
-                              "type": "integer"
-                            },
-                            {
-                              "type": "string"
-                            }
-                          ],
-                          "example": "string or id"
-                        }
-                      },
-                      "locale": {
+                      "slug": {
                         "type": "string"
                       }
                     }
@@ -36876,6 +36738,9 @@
                                                             }
                                                           }
                                                         },
+                                                        "order": {
+                                                          "type": "string"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -36980,6 +36845,9 @@
                                     }
                                   }
                                 }
+                              },
+                              "order": {
+                                "type": "string"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -38497,6 +38365,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "order": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -38601,6 +38472,9 @@
                                   }
                                 }
                               }
+                            },
+                            "order": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -38879,6 +38753,9 @@
                           }
                         ],
                         "example": "string or id"
+                      },
+                      "order": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",
@@ -40128,6 +40005,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "order": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -40232,6 +40112,9 @@
                                   }
                                 }
                               }
+                            },
+                            "order": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -41658,6 +41541,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "order": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -41762,6 +41648,9 @@
                                   }
                                 }
                               }
+                            },
+                            "order": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -42051,6 +41940,9 @@
                           }
                         ],
                         "example": "string or id"
+                      },
+                      "order": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",
