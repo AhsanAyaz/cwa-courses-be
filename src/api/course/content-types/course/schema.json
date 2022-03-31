@@ -24,14 +24,6 @@
       },
       "type": "string"
     },
-    "description": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "text"
-    },
     "outline": {
       "pluginOptions": {
         "i18n": {
@@ -39,14 +31,6 @@
         }
       },
       "type": "richtext"
-    },
-    "videoUrls": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "json"
     },
     "duration": {
       "pluginOptions": {
@@ -108,6 +92,22 @@
       "type": "string",
       "unique": true,
       "required": true
+    },
+    "introVideoUrl": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
     }
   }
 }

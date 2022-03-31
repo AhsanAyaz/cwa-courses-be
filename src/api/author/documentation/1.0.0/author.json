@@ -414,13 +414,9 @@
                                             "name": {
                                               "type": "string"
                                             },
-                                            "description": {
-                                              "type": "string"
-                                            },
                                             "outline": {
                                               "type": "string"
                                             },
-                                            "videoUrls": {},
                                             "duration": {
                                               "type": "string"
                                             },
@@ -2515,6 +2511,12 @@
                                             "slug": {
                                               "type": "string"
                                             },
+                                            "introVideoUrl": {
+                                              "type": "string"
+                                            },
+                                            "description": {
+                                              "type": "string"
+                                            },
                                             "createdAt": {
                                               "type": "string",
                                               "format": "date-time"
@@ -3314,13 +3316,9 @@
                                           "name": {
                                             "type": "string"
                                           },
-                                          "description": {
-                                            "type": "string"
-                                          },
                                           "outline": {
                                             "type": "string"
                                           },
-                                          "videoUrls": {},
                                           "duration": {
                                             "type": "string"
                                           },
@@ -5413,6 +5411,12 @@
                                             }
                                           },
                                           "slug": {
+                                            "type": "string"
+                                          },
+                                          "introVideoUrl": {
+                                            "type": "string"
+                                          },
+                                          "description": {
                                             "type": "string"
                                           },
                                           "createdAt": {
@@ -6196,13 +6200,9 @@
                                           "name": {
                                             "type": "string"
                                           },
-                                          "description": {
-                                            "type": "string"
-                                          },
                                           "outline": {
                                             "type": "string"
                                           },
-                                          "videoUrls": {},
                                           "duration": {
                                             "type": "string"
                                           },
@@ -8295,6 +8295,12 @@
                                             }
                                           },
                                           "slug": {
+                                            "type": "string"
+                                          },
+                                          "introVideoUrl": {
+                                            "type": "string"
+                                          },
+                                          "description": {
                                             "type": "string"
                                           },
                                           "createdAt": {
@@ -9005,13 +9011,9 @@
                                           "name": {
                                             "type": "string"
                                           },
-                                          "description": {
-                                            "type": "string"
-                                          },
                                           "outline": {
                                             "type": "string"
                                           },
-                                          "videoUrls": {},
                                           "duration": {
                                             "type": "string"
                                           },
@@ -11104,6 +11106,12 @@
                                             }
                                           },
                                           "slug": {
+                                            "type": "string"
+                                          },
+                                          "introVideoUrl": {
+                                            "type": "string"
+                                          },
+                                          "description": {
                                             "type": "string"
                                           },
                                           "createdAt": {
