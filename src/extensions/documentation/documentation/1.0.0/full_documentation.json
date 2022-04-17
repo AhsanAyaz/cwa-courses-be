@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-04-10T00:19:30.220Z"
+    "x-generation-date": "2022-04-17T03:15:32.513Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2569,6 +2569,23 @@
                                             },
                                             "description": {
                                               "type": "string"
+                                            },
+                                            "resources": {
+                                              "type": "array",
+                                              "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                  "id": {
+                                                    "type": "string"
+                                                  },
+                                                  "label": {
+                                                    "type": "string"
+                                                  },
+                                                  "url": {
+                                                    "type": "string"
+                                                  }
+                                                }
+                                              }
                                             },
                                             "createdAt": {
                                               "type": "string",
@@ -5475,6 +5492,23 @@
                                           "description": {
                                             "type": "string"
                                           },
+                                          "resources": {
+                                            "type": "array",
+                                            "items": {
+                                              "type": "object",
+                                              "properties": {
+                                                "id": {
+                                                  "type": "string"
+                                                },
+                                                "label": {
+                                                  "type": "string"
+                                                },
+                                                "url": {
+                                                  "type": "string"
+                                                }
+                                              }
+                                            }
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -8362,6 +8396,23 @@
                                           "description": {
                                             "type": "string"
                                           },
+                                          "resources": {
+                                            "type": "array",
+                                            "items": {
+                                              "type": "object",
+                                              "properties": {
+                                                "id": {
+                                                  "type": "string"
+                                                },
+                                                "label": {
+                                                  "type": "string"
+                                                },
+                                                "url": {
+                                                  "type": "string"
+                                                }
+                                              }
+                                            }
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -11175,6 +11226,23 @@
                                           },
                                           "description": {
                                             "type": "string"
+                                          },
+                                          "resources": {
+                                            "type": "array",
+                                            "items": {
+                                              "type": "object",
+                                              "properties": {
+                                                "id": {
+                                                  "type": "string"
+                                                },
+                                                "label": {
+                                                  "type": "string"
+                                                },
+                                                "url": {
+                                                  "type": "string"
+                                                }
+                                              }
+                                            }
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -21129,6 +21197,23 @@
                                                           "description": {
                                                             "type": "string"
                                                           },
+                                                          "resources": {
+                                                            "type": "array",
+                                                            "items": {
+                                                              "type": "object",
+                                                              "properties": {
+                                                                "id": {
+                                                                  "type": "string"
+                                                                },
+                                                                "label": {
+                                                                  "type": "string"
+                                                                },
+                                                                "url": {
+                                                                  "type": "string"
+                                                                }
+                                                              }
+                                                            }
+                                                          },
                                                           "createdAt": {
                                                             "type": "string",
                                                             "format": "date-time"
@@ -22026,6 +22111,23 @@
                               },
                               "description": {
                                 "type": "string"
+                              },
+                              "resources": {
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "id": {
+                                      "type": "string"
+                                    },
+                                    "label": {
+                                      "type": "string"
+                                    },
+                                    "url": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
                               },
                               "createdAt": {
                                 "type": "string",
@@ -24458,6 +24560,23 @@
                                                         "description": {
                                                           "type": "string"
                                                         },
+                                                        "resources": {
+                                                          "type": "array",
+                                                          "items": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                              "id": {
+                                                                "type": "string"
+                                                              },
+                                                              "label": {
+                                                                "type": "string"
+                                                              },
+                                                              "url": {
+                                                                "type": "string"
+                                                              }
+                                                            }
+                                                          }
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -25355,6 +25474,23 @@
                             },
                             "description": {
                               "type": "string"
+                            },
+                            "resources": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "id": {
+                                    "type": "string"
+                                  },
+                                  "label": {
+                                    "type": "string"
+                                  },
+                                  "url": {
+                                    "type": "string"
+                                  }
+                                }
+                              }
                             },
                             "createdAt": {
                               "type": "string",
@@ -27706,6 +27842,23 @@
                                                         "description": {
                                                           "type": "string"
                                                         },
+                                                        "resources": {
+                                                          "type": "array",
+                                                          "items": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                              "id": {
+                                                                "type": "string"
+                                                              },
+                                                              "label": {
+                                                                "type": "string"
+                                                              },
+                                                              "url": {
+                                                                "type": "string"
+                                                              }
+                                                            }
+                                                          }
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -28603,6 +28756,23 @@
                             },
                             "description": {
                               "type": "string"
+                            },
+                            "resources": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "id": {
+                                    "type": "string"
+                                  },
+                                  "label": {
+                                    "type": "string"
+                                  },
+                                  "url": {
+                                    "type": "string"
+                                  }
+                                }
+                              }
                             },
                             "createdAt": {
                               "type": "string",
@@ -30944,6 +31114,23 @@
                                                         "description": {
                                                           "type": "string"
                                                         },
+                                                        "resources": {
+                                                          "type": "array",
+                                                          "items": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                              "id": {
+                                                                "type": "string"
+                                                              },
+                                                              "label": {
+                                                                "type": "string"
+                                                              },
+                                                              "url": {
+                                                                "type": "string"
+                                                              }
+                                                            }
+                                                          }
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -31842,6 +32029,23 @@
                             "description": {
                               "type": "string"
                             },
+                            "resources": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "id": {
+                                    "type": "string"
+                                  },
+                                  "label": {
+                                    "type": "string"
+                                  },
+                                  "url": {
+                                    "type": "string"
+                                  }
+                                }
+                              }
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -32161,6 +32365,20 @@
                       },
                       "description": {
                         "type": "string"
+                      },
+                      "resources": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "label": {
+                              "type": "string"
+                            },
+                            "url": {
+                              "type": "string"
+                            }
+                          }
+                        }
                       },
                       "createdAt": {
                         "type": "string",
@@ -34495,6 +34713,23 @@
                                                         "description": {
                                                           "type": "string"
                                                         },
+                                                        "resources": {
+                                                          "type": "array",
+                                                          "items": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                              "id": {
+                                                                "type": "string"
+                                                              },
+                                                              "label": {
+                                                                "type": "string"
+                                                              },
+                                                              "url": {
+                                                                "type": "string"
+                                                              }
+                                                            }
+                                                          }
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -35392,6 +35627,23 @@
                             },
                             "description": {
                               "type": "string"
+                            },
+                            "resources": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "id": {
+                                    "type": "string"
+                                  },
+                                  "label": {
+                                    "type": "string"
+                                  },
+                                  "url": {
+                                    "type": "string"
+                                  }
+                                }
+                              }
                             },
                             "createdAt": {
                               "type": "string",

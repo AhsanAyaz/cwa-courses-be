@@ -108,6 +108,16 @@
         }
       },
       "type": "richtext"
+    },
+    "resources": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "resources.link"
     }
   }
 }
