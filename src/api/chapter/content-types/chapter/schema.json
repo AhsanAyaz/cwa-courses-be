@@ -27,6 +27,12 @@
     "showName": {
       "type": "boolean",
       "default": true
+    },
+    "course": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::course.course",
+      "inversedBy": "chapters"
     }
   }
 }

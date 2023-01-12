@@ -81,7 +81,8 @@
     "chapters": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::chapter.chapter"
+      "target": "api::chapter.chapter",
+      "mappedBy": "course"
     },
     "slug": {
       "pluginOptions": {
