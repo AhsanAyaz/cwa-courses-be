@@ -17,21 +17,17 @@
     },
     "type": {
       "type": "enumeration",
-      "enum": [
-        "video",
-        "article"
-      ]
+      "enum": ["video", "article"]
     },
     "video": {
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "allowedTypes": ["images", "files", "videos", "audios"]
+    },
+    "videoEmbedded": {
+      "type": "customField",
+      "customField": "plugin::oembed.oembed"
     },
     "videoUrl": {
       "type": "string"
