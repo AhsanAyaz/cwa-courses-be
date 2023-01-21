@@ -40,11 +40,6 @@
     "videoUrl": {
       "type": "string"
     },
-    "resources": {
-      "type": "component",
-      "repeatable": true,
-      "component": "section.resources-section"
-    },
     "chapter": {
       "type": "relation",
       "relation": "manyToOne",
@@ -59,6 +54,11 @@
     },
     "description": {
       "type": "text"
+    },
+    "resources": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resources.link"
     }
   }
 }
