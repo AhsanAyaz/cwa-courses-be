@@ -59,6 +59,9 @@
       "type": "component",
       "repeatable": true,
       "component": "resources.link"
+    },
+    "assignment": {
+      "type": "richtext"
     }
   }
 }
