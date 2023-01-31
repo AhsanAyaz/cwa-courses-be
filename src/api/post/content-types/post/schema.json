@@ -60,8 +60,11 @@
       "repeatable": true,
       "component": "resources.link"
     },
-    "assignment": {
+    "article": {
       "type": "richtext"
+    },
+    "hasAssignment": {
+      "type": "boolean"
     }
   }
 }
