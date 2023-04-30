@@ -5,4 +5,5 @@ module.exports = ({ env }) => ({
   apiToken: {
     salt: env("ADMIN_TOKEN_SALT", "aWK6KR4EmbWrwTO+HWhoaw=="),
   },
+  watchIgnoreFiles: ['**/scripts/**', '**/logs/**'],
 });

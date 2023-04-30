@@ -65,6 +65,9 @@
     },
     "hasAssignment": {
       "type": "boolean"
+    },
+    "thumbnail": {
+      "type": "string"
     }
   }
 }
