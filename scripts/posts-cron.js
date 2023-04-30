@@ -7,6 +7,7 @@ axios.defaults.headers.common['Authorization'] = `Bearer ${process.env.STRAPI_AP
 const slug = async (...args) => await import('github-slugger').then(({default: slug}) => new slug(...args));
 const logger = createCWALogger('yt-posts-cron');
 const strapiBaseUrl = process.env['STRAPI_API_BASE_URL'];
+const MESSAGE_DELAY_IN_SECONDS = 1000 * 60 * 5; // 5 minutes
 
 const youtube = google.youtube({
   version: 'v3',
@@ -164,6 +165,7 @@ const getVideoId = (originalUrl) => {
 }
 
 const sendMessageToDiscord = async (postsUrls) => {
+  await delay(MESSAGE_DELAY_IN_SECONDS);
   const webhookURL = process.env.DISCORD_WEBHOOK;
   try {
     await axios.post(webhookURL, {
@@ -190,6 +192,14 @@ const updateLastPostInStrapi = async (lastVidOldId, lastVidnewId) => {
   } catch (e) {
     logger.error('Error updating last post in strapi: ', e);
   }
+}
+
+const delay = (delayTime = 0) => {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve()
+    }, delayTime)
+  })
 }
 
 module.exports = {
