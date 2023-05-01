@@ -13,7 +13,7 @@ module.exports = {
       });
     },
     options: {
-      rule: "16 17 * * 0-6"
+      rule: "17 15 * * 0-6"
     },
   },
 };
