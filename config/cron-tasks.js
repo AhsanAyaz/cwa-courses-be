@@ -13,7 +13,7 @@ module.exports = {
       });
     },
     options: {
-      rule: "5 17 * * 0-6",
+      rule: "5 20 * * 0-6",
       timezone: 'Asia/Karachi'
     },
   },
