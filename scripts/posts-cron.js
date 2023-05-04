@@ -164,8 +164,8 @@ const getVideoId = (originalUrl) => {
   }
 }
 
-const sendMessageToDiscord = async (postsUrls) => {
-  await delay(MESSAGE_DELAY_IN_SECONDS);
+const sendMessageToDiscord = async (postsUrls, delayTime) => {
+  await delay(delayTime || MESSAGE_DELAY_IN_SECONDS);
   const webhookURL = process.env.DISCORD_WEBHOOK;
   try {
     await axios.post(webhookURL, {
