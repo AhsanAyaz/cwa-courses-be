@@ -1,5 +1,6 @@
 const {google} = require('googleapis');
 const { default: axios } = require('axios');
+const { default: axiosRetry } = require('axios-retry')
 const createCWALogger = require('../utils/logger');
 require('dotenv').config()
 const qs = require('qs');
@@ -8,6 +9,8 @@ const slug = async (...args) => await import('github-slugger').then(({default: s
 const logger = createCWALogger('yt-posts-cron');
 const strapiBaseUrl = process.env['STRAPI_API_BASE_URL'];
 const MESSAGE_DELAY_IN_SECONDS = 1000 * 60 * 5; // 5 minutes
+
+axiosRetry(axios, { retryDelay: axiosRetry.exponentialDelay, retries: 3 });
 
 const youtube = google.youtube({
   version: 'v3',
