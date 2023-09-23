@@ -31,7 +31,7 @@ module.exports = {
         });
     },
     options: {
-      rule: "0 5 * * *",
+      rule: "15 6 * * *",
     },
   },
 };
