@@ -7,7 +7,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CronChapterListResponse"
+                "$ref": "#/components/schemas/CronChapterResponse"
               }
             }
           }
@@ -154,7 +154,8 @@
           "deprecated": false,
           "required": false,
           "schema": {
-            "type": "object"
+            "type": "object",
+            "additionalProperties": true
           },
           "style": "deepObject"
         },
