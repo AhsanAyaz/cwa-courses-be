@@ -144,6 +144,16 @@
         }
       },
       "type": "integer"
+    },
+    "visibilityOrder": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "integer",
+      "default": 0,
+      "min": 0
     }
   }
 }

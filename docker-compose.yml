@@ -1,0 +1,42 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: strapi_postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: myAdminPass
+      POSTGRES_DB: postgres
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U strapi"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # strapi:
+  #   image: strapi/strapi
+  #   container_name: strapi_app
+  #   environment:
+  #     DATABASE_CLIENT: postgres
+  #     DATABASE_HOST: postgres
+  #     DATABASE_PORT: 5432
+  #     DATABASE_NAME: strapi
+  #     DATABASE_USERNAME: strapi
+  #     DATABASE_PASSWORD: strapipass
+  #     NODE_ENV: development
+  #   volumes:
+  #     - ./app:/srv/app
+  #   ports:
+  #     - "1337:1337"
+  #   networks:
+  #     - strapi-network
+  #   depends_on:
+  #     postgres:
+  #       condition: service_healthy
+
+volumes:
+  postgres-data:
