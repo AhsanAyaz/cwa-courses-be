@@ -13,13 +13,5 @@ module.exports = ({ env }) => ({
       },
     },
   },
-  "vercel-deploy": {
-    enabled: true,
-    config: {
-      deployHook: env("VERCEL_DEPLOY_HOOK"),
-      apiToken: env("VERCEL_API_TOKEN"),
-      appFilter: "code-with-ahsan",
-      roles: ["strapi-super-admin"],
-    },
-  },
+
 });

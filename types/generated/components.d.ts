@@ -1,20 +1,20 @@
-import type { Attribute, Schema } from '@strapi/strapi';
+import type { Schema, Struct } from '@strapi/strapi';
 
-export interface ResourcesLink extends Schema.Component {
+export interface ResourcesLink extends Struct.ComponentSchema {
   collectionName: 'components_resources_links';
   info: {
     displayName: 'Link';
     icon: 'link';
   };
   attributes: {
-    label: Attribute.String;
-    url: Attribute.String;
+    label: Schema.Attribute.String;
+    url: Schema.Attribute.String;
   };
 }
 
-declare module '@strapi/types' {
-  export module Shared {
-    export interface Components {
+declare module '@strapi/strapi' {
+  export module Public {
+    export interface ComponentSchemas {
       'resources.link': ResourcesLink;
     }
   }
