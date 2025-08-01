@@ -3,9 +3,9 @@ services:
     image: postgres:16
     container_name: strapi_postgres
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: myAdminPass
-      POSTGRES_DB: postgres
+      POSTGRES_USER: ${PGUSER:-strapi}
+      POSTGRES_PASSWORD: ${PGPASSWORD:-password}
+      POSTGRES_DB: ${PGDATABASE:-strapi}
     volumes:
       - postgres-data:/var/lib/postgresql/data
       - ./init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
