@@ -28,6 +28,11 @@
       "type": "boolean",
       "default": true
     },
+    "order": {
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
     "course": {
       "type": "relation",
       "relation": "manyToOne",
